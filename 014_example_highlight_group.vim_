@@ -1,0 +1,35 @@
+"
+" DEFINE two new highlight groups, logDate and logTime 
+
+hi def logDate ctermbg=yellow
+hi def logTime ctermbg=white
+
+" set TRIGGER to use these 2 highligh groups
+" 2020-01-21
+
+syn match logDate /\d\{4}-\d\{2}-\d\{2}/
+syn match logTime /\d\{2}:\d\{2}/
+
+" EXAMPLES
+"2020-01-01
+" 2010-1-1
+" 10:03
+" 09:23
+" 9:23
+
+
+
+"""""""
+
+" DEFINE a new highlight group medTrouble and assign same hi as built-in Error
+hi link medTrouble Error
+
+" SET trigger to use medTrouble highlights
+" just keywords
+syn keyword medTrouble oxalate glucose
+
+" OXALATE
+" oxalate
+" Oxalate
+" blood glucose
+

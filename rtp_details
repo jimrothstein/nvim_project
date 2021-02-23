@@ -1,0 +1,20 @@
+" :echo &rtp  - do I need all of these??
+" :echo len(&rtp)  636
+/home/jim/.config/nvim,
+/home/jim/.config/nvim/vim-plug/vim-plug,
+/home/jim/.config/nvim/vim-plug/nerdtree,
+/home/jim/.config/nvim/vim-plug/vimux,
+/home/jim/.config/nvim/vim-plug/vim-surround,
+/home/jim/.config/nvim/vim-plug/Nvim-R,
+/home/jim/.config/nvim/vim-plug/vim-myhelp,
+/etc/xdg/nvim,
+/home/jim/.local/share/nvim/site,
+/usr/local/share/nvim/site,
+/usr/share/nvim/site,
+/home/jim/bin/squashfs-root/usr/share/nvim/runtime,
+/home/jim/bin/squashfs-root/usr/share/nvim/runtime/pack/dist/opt/matchit,
+/usr/share/nvim/site/after,
+/usr/local/share/nvim/site/after,
+/home/jim/.local/share/nvim/site/after,
+/etc/xdg/nvim/after,
+/home/jim/.config/nvim/after

@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$MYTMUX	002_env_var_assign_display.vim	/^let $MYTMUX = $HOME\/.tmux.conf$/;"	v
+$a	001_map_examples.vim	/^let $a = "one"$/;"	v
+,ic	009_first_vim_script.vim	/^nmap ,ic :call InsertComment()<CR>$/;"	m
+,id	012_vim_code.vim	/^	nnoremap ,id :call Insert_date()<CR>$/;"	m
+,ih	009_first_vim_script.vim	/^nmap ,ih :call Heading()<CR>$/;"	m
+,sp	009_first_vim_script.vim	/^nmap ,sp :call SavePosition()<CR>$/;"	m
+<F2>	001_map_examples.vim	/^map <F2> GoDate:<Esc>:read !date<CR>kJ$/;"	m
+<Leader>%%	:execute	012_vim_code.vim	/^noremap <Leader>%%	:execute "w \\| so %"<CR>$/;"	m
+<Leader>xx	:execute	012_vim_code.vim	/^noremap <Leader>xx	:execute ":set"<CR>$/;"	m
+<Leader>yy	:execute	012_vim_code.vim	/^noremap <Leader>yy	:execute "normal gg"<CR>}}}$/;"	m
+<Leader>zz	012_vim_code.vim	/^	noremap <Leader>zz :execute "echo 7>5 ? 'yes' : 'no' " <CR>}}}$/;"	m
+<leader>m1	010_chris_toomey_vim_plugin.vim	/^nnoremap <leader>m1 :call MoveToTop()<cr>$/;"	m
+<leader>p	012_vim_code.vim	/^nnoremap <leader>p :call Eval_example()<cr>"}}}$/;"	m
+<leader>sp	010_chris_toomey_vim_plugin.vim	/^nnoremap <leader>sp  :call FixLastSpellingError()<cr>$/;"	m
+<leader>u1	010_chris_toomey_vim_plugin.vim	/^nnoremap <leader>u1 :call UnderlineHeading(1)<cr>$/;"	m
+<leader>u1	012_vim_code.vim	/^nnoremap <leader>u1 :call UnderlineHeading(1)<cr>$/;"	m
+<leader>u2	010_chris_toomey_vim_plugin.vim	/^nnoremap <leader>u2 :call UnderlineHeading(2)<cr>$/;"	m
+<leader>u2	012_vim_code.vim	/^nnoremap <leader>u2 :call UnderlineHeading(2)<cr>$/;"	m
+<leader>u3	010_chris_toomey_vim_plugin.vim	/^nnoremap <leader>u3 :call UnderlineHeading(3)<cr>$/;"	m
+<leader>u3	012_vim_code.vim	/^nnoremap <leader>u3 :call UnderlineHeading(3)<cr>$/;"	m
+BAR	makefile	/^	BAR = bar$/;"	m
+Eval_example	012_vim_code.vim	/^fun! Eval_example()$/;"	f
+FOOBAR	makefile	/^	FOOBAR = $(FOO) $(BAR)$/;"	m
+FixLastSpellingError	010_chris_toomey_vim_plugin.vim	/^function! FixLastSpellingError()$/;"	f
+Heading	009_first_vim_script.vim	/^function! Heading()$/;"	f
+InsertComment	009_first_vim_script.vim	/^function! InsertComment()$/;"	f
+Insert_date	012_vim_code.vim	/^	function!	Insert_date() $/;"	f
+MoveToTop	010_chris_toomey_vim_plugin.vim	/^func!	MoveToTop()$/;"	f
+SavePosition	009_first_vim_script.vim	/^function! SavePosition()$/;"	f
+UnderlineHeading	010_chris_toomey_vim_plugin.vim	/^function! UnderlineHeading(level)$/;"	f
+UnderlineHeading	012_vim_code.vim	/^function! UnderlineHeading(level)$/;"	f
+g:mydate	012_vim_code.vim	/^	let g:mydate=strftime("%d %b %Y") $/;"	v
+s:var	012_vim_code.vim	/^let s:var =1$/;"	v
+x	012_vim_code.vim	/^let x = strftime("%d %b %Y")$/;"	v
+zzz	001_map_examples.vim	/^map zzz GoDate:<Esc>:read !date<CR>kJ$/;"	m

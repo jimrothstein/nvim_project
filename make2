@@ -1,0 +1,4 @@
+begin  : foo = "jim"
+ ifeq ($(foo),"foo")
+	echo $foo
+endif
